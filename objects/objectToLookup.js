@@ -1,4 +1,6 @@
-var lookup = {
+function phoneticLookup(val) {
+ 
+  var lookup = {
     alpha: "Adams",
     bravo: "Boston",
     charlie: "Chicago",
@@ -7,3 +9,7 @@ var lookup = {
     foxtrot: "Frank"
     };
   return lookup[val];
+
+}
+
+console.log(phoneticLookup("charlie"));
