@@ -5,4 +5,6 @@ function checkObj(obj, checkProp) {
     return "Not Found";
   }
   
+
+  // return obj.hasOwnProperty(checkProp) ? obj[checkProp] :"Not Found";
 }
